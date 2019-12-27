@@ -1,0 +1,1366 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n\n# 実行当初、Python3系を使おうとして実行時エラーを生じたのでPythonバージョンの調査",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:34.842",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003e実行当初、Python3系を使おうとして実行時エラーを生じたのでPythonバージョンの調査\u003c/h1\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577458798862_-1286004635",
+      "id": "20191227-145958_959397880",
+      "dateCreated": "2019-12-27 14:59:58.862",
+      "dateStarted": "2019-12-27 15:24:34.862",
+      "dateFinished": "2019-12-27 15:24:34.866",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\nimport sys\n\nprint(\u0027Zeppelin python: {}\u0027.format(sys.version))",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:34.961",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Zeppelin python: 3.6.9 (default, Nov  7 2019, 10:44:02) \n[GCC 8.3.0]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577457241544_-1812081558",
+      "id": "20191227-143401_1193103049",
+      "dateCreated": "2019-12-27 14:34:01.544",
+      "dateStarted": "2019-12-27 15:24:34.979",
+      "dateFinished": "2019-12-27 15:24:34.983",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\ndef print_version(x):\n    import sys\n    return sys.version\n\nspark.sparkContext.parallelize(range(1, 3)).map(print_version).collect()",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:35.078",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[\u00273.6.9 (default, Nov  7 2019, 10:44:02) \\n[GCC 8.3.0]\u0027, \u00273.6.9 (default, Nov  7 2019, 10:44:02) \\n[GCC 8.3.0]\u0027]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577457296153_-1360341857",
+      "id": "20191227-143456_1840640996",
+      "dateCreated": "2019-12-27 14:34:56.153",
+      "dateStarted": "2019-12-27 15:24:35.094",
+      "dateFinished": "2019-12-27 15:24:35.130",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\n# メインコンテンツ",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:35.193",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eメインコンテンツ\u003c/h1\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577458825934_244818723",
+      "id": "20191227-150025_2102446955",
+      "dateCreated": "2019-12-27 15:00:25.934",
+      "dateStarted": "2019-12-27 15:24:35.214",
+      "dateFinished": "2019-12-27 15:24:35.217",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\n公式チュートリアルでは、IOUtilsを使ってs3上のデータを取得しているが、ここではPython3系で使えるrequestsを使ってデータを取得する。",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:35.314",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e公式チュートリアルでは、IOUtilsを使ってs3上のデータを取得しているが、ここではPython3系で使えるrequestsを使ってデータを取得する。\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577459833894_2037650173",
+      "id": "20191227-151713_1133666584",
+      "dateCreated": "2019-12-27 15:17:13.894",
+      "dateStarted": "2019-12-27 15:24:35.331",
+      "dateFinished": "2019-12-27 15:24:35.334",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\nimport requests\n\nbank_request \u003d requests.get(\u0027https://s3.amazonaws.com/apache-zeppelin/tutorial/bank/bank.csv\u0027)\nbank_text \u003d bank_request.text.splitlines()\nbank_text[0:2]\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:35.430",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[\u0027\"age\";\"job\";\"marital\";\"education\";\"default\";\"balance\";\"housing\";\"loan\";\"contact\";\"day\";\"month\";\"duration\";\"campaign\";\"pdays\";\"previous\";\"poutcome\";\"y\"\u0027, \u002730;\"unemployed\";\"married\";\"primary\";\"no\";1787;\"no\";\"no\";\"cellular\";19;\"oct\";79;1;-1;0;\"unknown\";\"no\"\u0027]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577429437284_2033140515",
+      "id": "20191227-065037_517479288",
+      "dateCreated": "2019-12-27 06:50:37.284",
+      "dateStarted": "2019-12-27 15:24:35.449",
+      "dateFinished": "2019-12-27 15:24:36.677",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\n上記の通り、CSVというより、セミコロン区切りのデータになっている。",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:36.750",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e上記の通り、CSVというより、セミコロン区切りのデータになっている。\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577460028132_-1846337024",
+      "id": "20191227-152028_1930897244",
+      "dateCreated": "2019-12-27 15:20:28.132",
+      "dateStarted": "2019-12-27 15:24:36.770",
+      "dateFinished": "2019-12-27 15:24:36.773",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\nbank_csv \u003d list(map(lambda l: l.split(\u0027;\u0027), bank_text))",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:36.869",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1577431756601_2031719739",
+      "id": "20191227-072916_271800135",
+      "dateCreated": "2019-12-27 07:29:16.601",
+      "dateStarted": "2019-12-27 15:24:36.889",
+      "dateFinished": "2019-12-27 15:24:36.907",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\nimport pprint\npprint.pprint(bank_csv[:2])",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:36.988",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[[\u0027\"age\"\u0027,\n  \u0027\"job\"\u0027,\n  \u0027\"marital\"\u0027,\n  \u0027\"education\"\u0027,\n  \u0027\"default\"\u0027,\n  \u0027\"balance\"\u0027,\n  \u0027\"housing\"\u0027,\n  \u0027\"loan\"\u0027,\n  \u0027\"contact\"\u0027,\n  \u0027\"day\"\u0027,\n  \u0027\"month\"\u0027,\n  \u0027\"duration\"\u0027,\n  \u0027\"campaign\"\u0027,\n  \u0027\"pdays\"\u0027,\n  \u0027\"previous\"\u0027,\n  \u0027\"poutcome\"\u0027,\n  \u0027\"y\"\u0027],\n [\u002730\u0027,\n  \u0027\"unemployed\"\u0027,\n  \u0027\"married\"\u0027,\n  \u0027\"primary\"\u0027,\n  \u0027\"no\"\u0027,\n  \u00271787\u0027,\n  \u0027\"no\"\u0027,\n  \u0027\"no\"\u0027,\n  \u0027\"cellular\"\u0027,\n  \u002719\u0027,\n  \u0027\"oct\"\u0027,\n  \u002779\u0027,\n  \u00271\u0027,\n  \u0027-1\u0027,\n  \u00270\u0027,\n  \u0027\"unknown\"\u0027,\n  \u0027\"no\"\u0027]]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577431843153_1856186679",
+      "id": "20191227-073043_252123473",
+      "dateCreated": "2019-12-27 07:30:43.153",
+      "dateStarted": "2019-12-27 15:24:37.008",
+      "dateFinished": "2019-12-27 15:24:37.022",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\n公式チュートリアルでは、ヘッダー除去しているのでここでも除去してみる。\nこの辺りの処理も本当はRDD化してから実施すべきかも。",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:37.107",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e公式チュートリアルでは、ヘッダー除去しているのでここでも除去してみる。\u003cbr/\u003eこの辺りの処理も本当はRDD化してから実施すべきかも。\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577460095549_111026887",
+      "id": "20191227-152135_247353101",
+      "dateCreated": "2019-12-27 15:21:35.549",
+      "dateStarted": "2019-12-27 15:24:37.126",
+      "dateFinished": "2019-12-27 15:24:37.128",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\nbank_csv_nohead \u003d bank_csv[1:]\nbank_csv_nohead[0:2]",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:37.225",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[[\u002730\u0027, \u0027\"unemployed\"\u0027, \u0027\"married\"\u0027, \u0027\"primary\"\u0027, \u0027\"no\"\u0027, \u00271787\u0027, \u0027\"no\"\u0027, \u0027\"no\"\u0027, \u0027\"cellular\"\u0027, \u002719\u0027, \u0027\"oct\"\u0027, \u002779\u0027, \u00271\u0027, \u0027-1\u0027, \u00270\u0027, \u0027\"unknown\"\u0027, \u0027\"no\"\u0027], [\u002733\u0027, \u0027\"services\"\u0027, \u0027\"married\"\u0027, \u0027\"secondary\"\u0027, \u0027\"no\"\u0027, \u00274789\u0027, \u0027\"yes\"\u0027, \u0027\"yes\"\u0027, \u0027\"cellular\"\u0027, \u002711\u0027, \u0027\"may\"\u0027, \u0027220\u0027, \u00271\u0027, \u0027339\u0027, \u00274\u0027, \u0027\"failure\"\u0027, \u0027\"no\"\u0027]]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577432261094_-783842403",
+      "id": "20191227-073741_1887775511",
+      "dateCreated": "2019-12-27 07:37:41.095",
+      "dateStarted": "2019-12-27 15:24:37.246",
+      "dateFinished": "2019-12-27 15:24:37.256",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\nここで後段の処理で必要なカラムだけ残す。",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:37.346",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eここで後段の処理で必要なカラムだけ残す。\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577460161932_-1920881239",
+      "id": "20191227-152241_1500367234",
+      "dateCreated": "2019-12-27 15:22:41.932",
+      "dateStarted": "2019-12-27 15:24:37.362",
+      "dateFinished": "2019-12-27 15:24:37.386",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\ndef pick(r):\n    r1 \u003d r[0:4]\n    r2 \u003d r[5]\n    \n    r1.append(r2)\n    return r1\n\npicked_cont \u003d list(map(pick, bank_csv_nohead))\npicked_cont[0:2]",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:56.589",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
+        },
+        "editorMode": "ace/mode/python",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[[\u002730\u0027, \u0027\"unemployed\"\u0027, \u0027\"married\"\u0027, \u0027\"primary\"\u0027, \u00271787\u0027], [\u002733\u0027, \u0027\"services\"\u0027, \u0027\"married\"\u0027, \u0027\"secondary\"\u0027, \u00274789\u0027]]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577430067533_1279948577",
+      "id": "20191227-070107_2006059724",
+      "dateCreated": "2019-12-27 07:01:07.533",
+      "dateStarted": "2019-12-27 15:24:56.604",
+      "dateFinished": "2019-12-27 15:24:56.613",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\nDataFrameのスキーマを定義する。",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:25:23.892",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eDataFrameのスキーマを定義する。\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577460305192_-1318761254",
+      "id": "20191227-152505_759544890",
+      "dateCreated": "2019-12-27 15:25:05.192",
+      "dateStarted": "2019-12-27 15:25:19.794",
+      "dateFinished": "2019-12-27 15:25:19.799",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\nfrom pyspark.sql.types import *\n\nfields \u003d [StructField(\u0027age\u0027, IntegerType(), True),\n            StructField(\u0027job\u0027, StringType(), True),\n            StructField(\u0027marital\u0027, StringType(), True),\n            StructField(\u0027education\u0027, StringType(), True),\n            StructField(\u0027balance\u0027, IntegerType(), True)]\n            \nschema \u003d StructType(fields)\n# spark.read.csv(\u0027https://s3.amazonaws.com/apache-zeppelin/tutorial/bank/bank.csv\u0027, sep\u003d \u0027;\u0027)",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:25:02.083",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
+        },
+        "editorMode": "ace/mode/python",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1577429450692_520287126",
+      "id": "20191227-065050_2051498163",
+      "dateCreated": "2019-12-27 06:50:50.692",
+      "dateStarted": "2019-12-27 15:25:02.098",
+      "dateFinished": "2019-12-27 15:25:02.105",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\n文字列に含まれるダブルクォーテーションを消し、文字列型になってしまっている本来は数値のカラムをキャストする。",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:26:45.433",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e文字列に含まれるダブルクォーテーションを消し、文字列型になってしまっている本来は数値のカラムをキャストする。\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577460341173_1468617893",
+      "id": "20191227-152541_915613334",
+      "dateCreated": "2019-12-27 15:25:41.173",
+      "dateStarted": "2019-12-27 15:26:45.434",
+      "dateFinished": "2019-12-27 15:26:45.437",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\nbank_rdd \u003d spark.sparkContext.parallelize(picked_cont)\n\ndef strip_quotation(r):\n    return list(map(lambda x: x.strip(\"\\\"\"), r))\n    \ndef transform_type(r):\n    return [int(r[0]), r[1], r[2], r[3], int(r[4])]\n\nbank_rdd2 \u003d bank_rdd.map(strip_quotation)\nbank_rdd3 \u003d bank_rdd2.map(transform_type)",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:25:37.382",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
+        },
+        "editorMode": "ace/mode/python",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1577432191591_1087305306",
+      "id": "20191227-073631_1301581151",
+      "dateCreated": "2019-12-27 07:36:31.592",
+      "dateStarted": "2019-12-27 15:25:29.290",
+      "dateFinished": "2019-12-27 15:25:29.302",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\nDataFrameに変換し、テーブルとして登録する。",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:27:11.384",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eDataFrameに変換し、テーブルとして登録する。\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577460417283_1691309266",
+      "id": "20191227-152657_420495072",
+      "dateCreated": "2019-12-27 15:26:57.283",
+      "dateStarted": "2019-12-27 15:27:11.384",
+      "dateFinished": "2019-12-27 15:27:11.389",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\nbank_df \u003d spark.createDataFrame(bank_rdd3, schema)\nbank_df.registerTempTable(\u0027bank\u0027)",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:26:52.636",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1577458870701_-406928303",
+      "id": "20191227-150110_1113515145",
+      "dateCreated": "2019-12-27 15:01:10.701",
+      "dateStarted": "2019-12-27 15:26:52.656",
+      "dateFinished": "2019-12-27 15:26:52.681",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\n以降、SQLでの処理",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:27:23.412",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e以降、SQLでの処理\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577460435432_-98892049",
+      "id": "20191227-152715_2073595537",
+      "dateCreated": "2019-12-27 15:27:15.432",
+      "dateStarted": "2019-12-27 15:27:23.412",
+      "dateFinished": "2019-12-27 15:27:23.432",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\n\nSELECT * FROM bank",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:37.940",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "age": "string",
+                      "job": "string",
+                      "marital": "string",
+                      "education": "string",
+                      "balance": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "age\tjob\tmarital\teducation\tbalance\n30\tunemployed\tmarried\tprimary\t1787\n33\tservices\tmarried\tsecondary\t4789\n35\tmanagement\tsingle\ttertiary\t1350\n30\tmanagement\tmarried\ttertiary\t1476\n59\tblue-collar\tmarried\tsecondary\t0\n35\tmanagement\tsingle\ttertiary\t747\n36\tself-employed\tmarried\ttertiary\t307\n39\ttechnician\tmarried\tsecondary\t147\n41\tentrepreneur\tmarried\ttertiary\t221\n43\tservices\tmarried\tprimary\t-88\n39\tservices\tmarried\tsecondary\t9374\n43\tadmin.\tmarried\tsecondary\t264\n36\ttechnician\tmarried\ttertiary\t1109\n20\tstudent\tsingle\tsecondary\t502\n31\tblue-collar\tmarried\tsecondary\t360\n40\tmanagement\tmarried\ttertiary\t194\n56\ttechnician\tmarried\tsecondary\t4073\n37\tadmin.\tsingle\ttertiary\t2317\n25\tblue-collar\tsingle\tprimary\t-221\n31\tservices\tmarried\tsecondary\t132\n38\tmanagement\tdivorced\tunknown\t0\n42\tmanagement\tdivorced\ttertiary\t16\n44\tservices\tsingle\tsecondary\t106\n44\tentrepreneur\tmarried\tsecondary\t93\n26\thousemaid\tmarried\ttertiary\t543\n41\tmanagement\tmarried\ttertiary\t5883\n55\tblue-collar\tmarried\tprimary\t627\n67\tretired\tmarried\tunknown\t696\n56\tself-employed\tmarried\tsecondary\t784\n53\tadmin.\tmarried\tsecondary\t105\n68\tretired\tdivorced\tsecondary\t4189\n31\ttechnician\tmarried\tsecondary\t171\n59\tmanagement\tmarried\tsecondary\t42\n32\tmanagement\tsingle\ttertiary\t2536\n49\ttechnician\tmarried\ttertiary\t1235\n42\tadmin.\tdivorced\tsecondary\t1811\n78\tretired\tdivorced\tprimary\t229\n32\tblue-collar\tmarried\tsecondary\t2089\n33\tmanagement\tmarried\tsecondary\t3935\n23\tservices\tsingle\ttertiary\t363\n38\tmanagement\tsingle\ttertiary\t11971\n36\tmanagement\tsingle\ttertiary\t553\n52\tblue-collar\tmarried\tsecondary\t1117\n32\ttechnician\tmarried\ttertiary\t396\n32\ttechnician\tsingle\ttertiary\t2204\n34\tmanagement\tsingle\ttertiary\t872\n55\tblue-collar\tmarried\tprimary\t145\n26\tblue-collar\tmarried\tprimary\t0\n32\tentrepreneur\tsingle\tprimary\t-849\n61\tadmin.\tmarried\tunknown\t4629\n45\tblue-collar\tdivorced\tprimary\t844\n37\ttechnician\tsingle\tsecondary\t228\n38\ttechnician\tsingle\tsecondary\t50\n34\ttechnician\tmarried\ttertiary\t1539\n53\tblue-collar\tmarried\tsecondary\t2231\n48\tadmin.\tmarried\tsecondary\t3064\n57\tmanagement\tmarried\tsecondary\t82\n33\tself-employed\tsingle\ttertiary\t2155\n36\tretired\tsingle\tsecondary\t101\n54\ttechnician\tdivorced\tsecondary\t784\n41\tblue-collar\tmarried\tprimary\t-516\n63\tretired\tmarried\tsecondary\t415\n48\tmanagement\tmarried\ttertiary\t5887\n48\tservices\tmarried\tsecondary\t1355\n56\tadmin.\tmarried\tsecondary\t16873\n51\tblue-collar\tdivorced\tsecondary\t203\n31\tservices\tmarried\tsecondary\t338\n29\ttechnician\tmarried\tsecondary\t444\n41\tmanagement\tmarried\tsecondary\t0\n32\ttechnician\tsingle\ttertiary\t360\n37\tmanagement\tmarried\ttertiary\t0\n42\tentrepreneur\tdivorced\ttertiary\t2\n31\tmanagement\tsingle\ttertiary\t6248\n41\tservices\tmarried\ttertiary\t412\n56\tretired\tmarried\tsecondary\t344\n54\tmanagement\tdivorced\ttertiary\t3222\n41\tblue-collar\tdivorced\tsecondary\t174\n40\ttechnician\tsingle\tsecondary\t591\n50\tblue-collar\tdivorced\tprimary\t388\n40\tunemployed\tmarried\tsecondary\t219\n27\tadmin.\tdivorced\tsecondary\t451\n60\tretired\tmarried\tprimary\t5\n28\tadmin.\tsingle\tsecondary\t177\n52\tservices\tmarried\tsecondary\t657\n37\tmanagement\tmarried\ttertiary\t1315\n51\tblue-collar\tmarried\tprimary\t1466\n41\ttechnician\tsingle\tsecondary\t879\n35\tblue-collar\tsingle\tprimary\t293\n38\tadmin.\tmarried\tsecondary\t424\n34\tblue-collar\tmarried\tsecondary\t1831\n39\tblue-collar\tmarried\tprimary\t111\n34\tblue-collar\tmarried\tprimary\t455\n27\tservices\tsingle\tsecondary\t-195\n32\tmanagement\tsingle\ttertiary\t3616\n57\tblue-collar\tmarried\tsecondary\t14093\n41\tunknown\tsingle\ttertiary\t1567\n41\tadmin.\tmarried\ttertiary\t5426\n30\tadmin.\tsingle\ttertiary\t261\n36\tblue-collar\tdivorced\tsecondary\t2843\n31\tunemployed\tsingle\tprimary\t406\n36\tblue-collar\tmarried\tsecondary\t0\n38\tmanagement\tsingle\ttertiary\t493\n49\ttechnician\tmarried\tsecondary\t5996\n57\tservices\tsingle\tprimary\t3777\n34\tmanagement\tsingle\tsecondary\t524\n32\tmanagement\tsingle\ttertiary\t574\n37\tblue-collar\tmarried\tsecondary\t427\n33\tself-employed\tmarried\ttertiary\t483\n56\tunemployed\tmarried\tprimary\t3391\n27\thousemaid\tmarried\tprimary\t0\n21\tstudent\tsingle\tsecondary\t2488\n58\tmanagement\tmarried\ttertiary\t1517\n32\tself-employed\tmarried\tsecondary\t217\n33\tblue-collar\tsingle\tsecondary\t22\n25\tstudent\tsingle\tsecondary\t331\n25\ttechnician\tsingle\tsecondary\t505\n30\tservices\tmarried\tsecondary\t1808\n22\tadmin.\tsingle\tsecondary\t4111\n39\tblue-collar\tmarried\tprimary\t52\n46\tmanagement\tdivorced\ttertiary\t25\n31\tadmin.\tdivorced\tsecondary\t1890\n45\tblue-collar\tmarried\tprimary\t419\n32\ttechnician\tmarried\tsecondary\t2693\n36\tblue-collar\tmarried\tsecondary\t-231\n51\tmanagement\tsingle\ttertiary\t-55\n34\tself-employed\tsingle\ttertiary\t462\n24\tunemployed\tsingle\tsecondary\t119\n45\ttechnician\tsingle\tsecondary\t586\n32\tblue-collar\tsingle\tsecondary\t228\n77\tretired\tdivorced\ttertiary\t4659\n41\tblue-collar\tmarried\tprimary\t168\n37\tblue-collar\tmarried\tprimary\t0\n43\tblue-collar\tmarried\tunknown\t-715\n48\tadmin.\tmarried\tunknown\t0\n27\ttechnician\tsingle\tsecondary\t769\n33\tmanagement\tsingle\ttertiary\t0\n29\tadmin.\tsingle\tsecondary\t428\n34\tmanagement\tsingle\ttertiary\t0\n52\tmanagement\tmarried\ttertiary\t-970\n60\tmanagement\tmarried\tunknown\t6313\n32\tmanagement\tdivorced\ttertiary\t948\n32\tmanagement\tsingle\ttertiary\t0\n56\tservices\tdivorced\tunknown\t1877\n31\tmanagement\tsingle\ttertiary\t874\n42\tadmin.\tmarried\tsecondary\t323\n35\tmanagement\tmarried\ttertiary\t106\n56\tretired\tmarried\tprimary\t1906\n48\ttechnician\tmarried\tsecondary\t1152\n46\tadmin.\tmarried\tsecondary\t179\n37\ttechnician\tsingle\tunknown\t391\n41\tentrepreneur\tmarried\tunknown\t89\n36\tmanagement\tsingle\ttertiary\t442\n45\tunemployed\tdivorced\tprimary\t-249\n55\tentrepreneur\tmarried\tsecondary\t8104\n39\ttechnician\tmarried\tsecondary\t501\n35\ttechnician\tdivorced\tsecondary\t308\n55\tadmin.\tmarried\tsecondary\t602\n55\ttechnician\tmarried\tsecondary\t273\n27\tself-employed\tsingle\tsecondary\t50\n34\ttechnician\tmarried\tsecondary\t1641\n34\tblue-collar\tmarried\ttertiary\t20\n25\tadmin.\tsingle\tsecondary\t4590\n41\tadmin.\tsingle\tsecondary\t-256\n43\tservices\tmarried\tsecondary\t978\n28\tmanagement\tsingle\ttertiary\t80\n31\tadmin.\tsingle\tsecondary\t2104\n78\thousemaid\tmarried\tsecondary\t499\n45\tblue-collar\tdivorced\tsecondary\t1269\n48\ttechnician\tmarried\ttertiary\t310\n32\tblue-collar\tsingle\tsecondary\t1143\n42\ttechnician\tmarried\tsecondary\t2980\n37\tmanagement\tsingle\ttertiary\t37\n40\tadmin.\tsingle\tsecondary\t462\n32\tadmin.\tmarried\tsecondary\t1031\n42\tmanagement\tmarried\ttertiary\t9009\n43\tadmin.\tmarried\tsecondary\t-465\n44\tadmin.\tmarried\tsecondary\t5181\n37\tadmin.\tmarried\tsecondary\t176\n37\tunknown\tmarried\tunknown\t1699\n37\tadmin.\tmarried\ttertiary\t0\n28\ttechnician\tsingle\ttertiary\t172\n32\tservices\tsingle\tsecondary\t0\n34\tadmin.\tsingle\tsecondary\t6979\n40\tadmin.\tdivorced\tsecondary\t6\n34\tservices\tmarried\tsecondary\t-62\n34\tself-employed\tmarried\ttertiary\t1972\n34\tadmin.\tmarried\ttertiary\t899\n37\tservices\tsingle\tsecondary\t21\n36\ttechnician\tmarried\tsecondary\t23\n56\tretired\tmarried\tsecondary\t-1206\n49\tblue-collar\tmarried\tprimary\t0\n33\tself-employed\tmarried\tsecondary\t215\n30\tmanagement\tsingle\ttertiary\t1372\n36\tservices\tmarried\tsecondary\t1981\n23\tstudent\tsingle\tsecondary\t9216\n57\tretired\tdivorced\tsecondary\t39\n27\tblue-collar\tsingle\tsecondary\t5563\n38\tservices\tmarried\tsecondary\t1\n42\ttechnician\tmarried\ttertiary\t782\n75\tretired\tmarried\tsecondary\t3771\n34\ttechnician\tsingle\ttertiary\t992\n48\ttechnician\tmarried\tsecondary\t1526\n35\ttechnician\tsingle\ttertiary\t2658\n39\tmanagement\tdivorced\ttertiary\t1315\n29\tblue-collar\tsingle\ttertiary\t455\n45\ttechnician\tsingle\ttertiary\t0\n42\ttechnician\tmarried\tsecondary\t2030\n29\ttechnician\tmarried\tsecondary\t1599\n38\tservices\tsingle\tsecondary\t-196\n56\tretired\tmarried\tsecondary\t1333\n36\ttechnician\tsingle\tsecondary\t9149\n25\tblue-collar\tsingle\tsecondary\t-350\n38\ttechnician\tmarried\ttertiary\t432\n57\tself-employed\tmarried\tsecondary\t11494\n31\tmanagement\tmarried\ttertiary\t-253\n42\tmanagement\tmarried\ttertiary\t372\n45\ttechnician\tmarried\tsecondary\t1410\n30\tblue-collar\tmarried\tsecondary\t975\n49\tblue-collar\tmarried\tprimary\t305\n49\tservices\tmarried\tsecondary\t400\n53\tretired\tmarried\ttertiary\t-22\n37\ttechnician\tmarried\tsecondary\t4030\n49\tblue-collar\tmarried\tprimary\t365\n41\tself-employed\tmarried\tprimary\t204\n54\tmanagement\tmarried\tprimary\t1691\n32\tservices\tsingle\tsecondary\t406\n33\ttechnician\tmarried\tsecondary\t-204\n33\ttechnician\tmarried\tsecondary\t359\n36\tblue-collar\tmarried\tprimary\t123\n35\ttechnician\tmarried\ttertiary\t0\n52\tunknown\tmarried\tsecondary\t142\n40\tentrepreneur\tmarried\ttertiary\t3571\n44\ttechnician\tsingle\tsecondary\t33\n45\tblue-collar\tsingle\tsecondary\t0\n30\tstudent\tsingle\tsecondary\t3096\n48\ttechnician\tdivorced\tsecondary\t20\n33\tblue-collar\tmarried\tsecondary\t3576\n57\ttechnician\tmarried\tunknown\t206\n57\thousemaid\tmarried\tprimary\t7082\n51\tunemployed\tmarried\ttertiary\t1634\n34\tadmin.\tsingle\tsecondary\t1\n50\tself-employed\tmarried\ttertiary\t4012\n44\tmanagement\tmarried\ttertiary\t3762\n27\tadmin.\tmarried\tsecondary\t-247\n50\tblue-collar\tmarried\tsecondary\t606\n36\tmanagement\tmarried\ttertiary\t0\n42\tmanagement\tmarried\tsecondary\t-189\n32\tunemployed\tsingle\tsecondary\t0\n42\tmanagement\tmarried\ttertiary\t484\n43\ttechnician\tmarried\tsecondary\t0\n31\tmanagement\tmarried\ttertiary\t395\n32\tmanagement\tmarried\ttertiary\t2349\n55\tblue-collar\tdivorced\tprimary\t410\n58\tretired\tmarried\tprimary\t3401\n46\tblue-collar\tmarried\tprimary\t222\n55\tblue-collar\tmarried\tsecondary\t989\n34\tmanagement\tmarried\ttertiary\t415\n28\tunemployed\tsingle\tsecondary\t16\n42\ttechnician\tdivorced\ttertiary\t7190\n29\tblue-collar\tsingle\tsecondary\t482\n54\thousemaid\tmarried\tsecondary\t209\n32\ttechnician\tsingle\tsecondary\t0\n39\ttechnician\tsingle\ttertiary\t5803\n53\tentrepreneur\tmarried\ttertiary\t624\n58\ttechnician\tmarried\ttertiary\t883\n40\tself-employed\tmarried\tsecondary\t1516\n29\tstudent\tsingle\tsecondary\t872\n33\ttechnician\tmarried\ttertiary\t-988\n38\tadmin.\tsingle\tsecondary\t902\n56\tservices\tdivorced\tsecondary\t1007\n40\tservices\tmarried\tsecondary\t0\n24\tblue-collar\tsingle\tsecondary\t174\n46\tmanagement\tmarried\tsecondary\t12186\n35\tself-employed\tmarried\tsecondary\t524\n35\tblue-collar\tsingle\ttertiary\t0\n34\ttechnician\tmarried\tsecondary\t4\n35\thousemaid\tmarried\ttertiary\t11219\n38\ttechnician\tsingle\ttertiary\t0\n50\tblue-collar\tmarried\tprimary\t5776\n51\tblue-collar\tdivorced\tprimary\t37\n59\tself-employed\tmarried\ttertiary\t593\n32\tblue-collar\tmarried\tsecondary\t1148\n37\tblue-collar\tsingle\tsecondary\t3561\n42\tadmin.\tdivorced\tsecondary\t63\n40\tstudent\tmarried\tsecondary\t260\n28\ttechnician\tsingle\ttertiary\t2269\n47\tadmin.\tmarried\tsecondary\t1060\n27\tself-employed\tmarried\tsecondary\t-220\n41\tmanagement\tmarried\ttertiary\t49\n34\tadmin.\tmarried\ttertiary\t69\n50\tblue-collar\tmarried\tprimary\t4108\n47\tblue-collar\tmarried\tsecondary\t480\n53\tservices\tmarried\tsecondary\t4994\n53\ttechnician\tdivorced\tsecondary\t0\n47\tmanagement\tmarried\ttertiary\t3681\n49\tentrepreneur\tdivorced\tunknown\t-701\n29\tmanagement\tmarried\ttertiary\t451\n45\tblue-collar\tdivorced\tprimary\t-311\n38\tentrepreneur\tmarried\tsecondary\t593\n32\tblue-collar\tmarried\tsecondary\t759\n70\tretired\tdivorced\tprimary\t4531\n65\tretired\tdivorced\tprimary\t1840\n56\tblue-collar\tmarried\tsecondary\t345\n35\tblue-collar\tmarried\tsecondary\t1287\n56\tmanagement\tmarried\tunknown\t353\n56\ttechnician\tmarried\tsecondary\t205\n49\tentrepreneur\tmarried\tsecondary\t687\n38\tunemployed\tmarried\tprimary\t1147\n35\tmanagement\tmarried\ttertiary\t4286\n38\tadmin.\tmarried\ttertiary\t605\n49\tblue-collar\tmarried\tsecondary\t8545\n55\tmanagement\tmarried\tunknown\t559\n43\tblue-collar\tsingle\tprimary\t2\n43\tmanagement\tmarried\ttertiary\t2\n25\tadmin.\tsingle\ttertiary\t760\n30\tblue-collar\tmarried\tprimary\t1317\n46\tblue-collar\tmarried\tsecondary\t182\n50\tadmin.\tmarried\tprimary\t276\n35\tentrepreneur\tmarried\tsecondary\t2971\n26\tunemployed\tsingle\tsecondary\t1064\n45\tadmin.\tmarried\tunknown\t1783\n37\tblue-collar\tmarried\tsecondary\t-67\n60\tself-employed\tsingle\ttertiary\t179\n38\tmanagement\tmarried\ttertiary\t1199\n47\tblue-collar\tmarried\tprimary\t214\n33\ttechnician\tmarried\tsecondary\t6699\n51\tunemployed\tmarried\tsecondary\t1760\n35\tentrepreneur\tsingle\ttertiary\t145\n35\tunemployed\tmarried\tsecondary\t978\n48\tadmin.\tsingle\tsecondary\t1150\n37\tadmin.\tmarried\tsecondary\t121\n29\ttechnician\tsingle\ttertiary\t828\n34\tadmin.\tmarried\tsecondary\t244\n32\tservices\tmarried\tprimary\t228\n30\tmanagement\tsingle\ttertiary\t424\n47\tmanagement\tdivorced\ttertiary\t447\n33\tblue-collar\tmarried\tprimary\t-195\n33\tmanagement\tsingle\ttertiary\t1410\n63\tretired\tmarried\tprimary\t1084\n51\tself-employed\tdivorced\tprimary\t10924\n41\tmanagement\tmarried\ttertiary\t832\n56\tretired\tmarried\ttertiary\t478\n60\tmanagement\tsingle\ttertiary\t0\n41\tself-employed\tsingle\ttertiary\t3950\n37\tmanagement\tsingle\tunknown\t504\n36\tblue-collar\tsingle\tsecondary\t219\n57\tmanagement\tmarried\ttertiary\t1602\n55\tmanagement\tmarried\tprimary\t2587\n44\tadmin.\tmarried\tsecondary\t0\n47\tself-employed\tmarried\ttertiary\t2303\n31\tblue-collar\tmarried\tsecondary\t1660\n35\tmanagement\tmarried\ttertiary\t32\n39\tmanagement\tmarried\ttertiary\t278\n50\tmanagement\tmarried\ttertiary\t4\n29\tmanagement\tmarried\ttertiary\t318\n30\tservices\tsingle\tsecondary\t209\n46\tservices\tmarried\tsecondary\t271\n27\tmanagement\tsingle\tunknown\t3196\n48\tadmin.\tdivorced\tsecondary\t4099\n26\tstudent\tsingle\tsecondary\t2572\n36\tmanagement\tsingle\ttertiary\t339\n42\tblue-collar\tmarried\tprimary\t0\n50\thousemaid\tmarried\tprimary\t395\n49\tblue-collar\tmarried\tsecondary\t2039\n45\tmanagement\tmarried\ttertiary\t5450\n23\tstudent\tsingle\tsecondary\t780\n38\ttechnician\tsingle\tsecondary\t0\n32\tmanagement\tsingle\ttertiary\t8436\n60\ttechnician\tsingle\tprimary\t11262\n30\tentrepreneur\tmarried\tsecondary\t946\n58\thousemaid\tmarried\ttertiary\t497\n60\tretired\tmarried\tprimary\t55\n38\tservices\tmarried\tsecondary\t-140\n51\ttechnician\tmarried\tsecondary\t-379\n42\tadmin.\tmarried\tsecondary\t-396\n30\tservices\tsingle\tsecondary\t0\n40\tmanagement\tmarried\tprimary\t733\n37\tmanagement\tmarried\ttertiary\t393\n53\ttechnician\tdivorced\tprimary\t7290\n27\tservices\tsingle\tsecondary\t468\n39\tblue-collar\tmarried\tsecondary\t0\n39\tblue-collar\tmarried\tprimary\t3705\n59\tretired\tmarried\ttertiary\t9676\n37\tservices\tmarried\tsecondary\t1328\n41\tblue-collar\tmarried\tprimary\t8\n45\tblue-collar\tmarried\tprimary\t61\n48\tmanagement\tmarried\ttertiary\t6613\n48\ttechnician\tmarried\tsecondary\t302\n32\tblue-collar\tmarried\tsecondary\t1005\n35\tservices\tmarried\tsecondary\t109\n33\tmanagement\tsingle\ttertiary\t1240\n28\tblue-collar\tsingle\tprimary\t0\n64\tretired\tmarried\tunknown\t2923\n35\ttechnician\tmarried\tsecondary\t0\n33\tblue-collar\tmarried\tsecondary\t43\n41\ttechnician\tmarried\tsecondary\t288\n34\tadmin.\tmarried\tsecondary\t613\n37\ttechnician\tsingle\ttertiary\t6101\n38\tblue-collar\tmarried\tprimary\t168\n39\tblue-collar\tmarried\tprimary\t7685\n35\ttechnician\tdivorced\ttertiary\t4515\n28\tblue-collar\tsingle\tsecondary\t517\n27\tblue-collar\tsingle\tsecondary\t148\n48\tretired\tmarried\tprimary\t-285\n50\tblue-collar\tmarried\tsecondary\t887\n45\tself-employed\tmarried\tsecondary\t3098\n41\ttechnician\tmarried\ttertiary\t744\n39\ttechnician\tmarried\tsecondary\t130\n44\tmanagement\tmarried\tsecondary\t438\n54\tadmin.\tmarried\tsecondary\t0\n49\tmanagement\tmarried\ttertiary\t322\n34\tblue-collar\tsingle\tsecondary\t186\n75\tretired\tdivorced\ttertiary\t3810\n42\tmanagement\tmarried\ttertiary\t0\n53\tblue-collar\tmarried\tsecondary\t4380\n49\tmanagement\tdivorced\ttertiary\t755\n31\tservices\tsingle\tsecondary\t2070\n45\tblue-collar\tsingle\tprimary\t999\n39\tself-employed\tmarried\tsecondary\t167\n46\ttechnician\tmarried\tsecondary\t1322\n42\tadmin.\tdivorced\tsecondary\t1076\n37\tmanagement\tmarried\ttertiary\t502\n26\ttechnician\tsingle\ttertiary\t1216\n37\tmanagement\tsingle\ttertiary\t876\n36\tservices\tsingle\tsecondary\t342\n29\tblue-collar\tsingle\tprimary\t950\n36\tblue-collar\tmarried\tprimary\t973\n26\ttechnician\tmarried\ttertiary\t3825\n32\tblue-collar\tmarried\tsecondary\t2366\n40\tmanagement\tmarried\ttertiary\t542\n53\tmanagement\tmarried\tprimary\t995\n29\tmanagement\tmarried\ttertiary\t20\n34\ttechnician\tsingle\ttertiary\t228\n43\tblue-collar\tmarried\tsecondary\t130\n56\tmanagement\tmarried\ttertiary\t217\n55\tentrepreneur\tdivorced\ttertiary\t0\n31\tself-employed\tmarried\ttertiary\t259\n27\tadmin.\tsingle\tsecondary\t619\n36\tmanagement\tmarried\tsecondary\t644\n44\tmanagement\tmarried\ttertiary\t22\n37\tadmin.\tdivorced\ttertiary\t4303\n30\tadmin.\tsingle\tsecondary\t239\n42\ttechnician\tsingle\tsecondary\t275\n30\tmanagement\tmarried\ttertiary\t1221\n62\tretired\tmarried\tsecondary\t816\n24\tblue-collar\tmarried\tsecondary\t1222\n31\ttechnician\tmarried\tsecondary\t2363\n66\tretired\tmarried\ttertiary\t2262\n47\tadmin.\tmarried\tsecondary\t2\n39\tentrepreneur\tmarried\ttertiary\t2\n35\ttechnician\tmarried\tsecondary\t4508\n35\tadmin.\tdivorced\tsecondary\t-402\n27\ttechnician\tmarried\tsecondary\t1577\n32\tblue-collar\tmarried\tsecondary\t34\n44\tmanagement\tmarried\ttertiary\t795\n42\tblue-collar\tmarried\tsecondary\t117\n34\tself-employed\tsingle\ttertiary\t5462\n25\tservices\tsingle\tsecondary\t402\n40\ttechnician\tsingle\tsecondary\t641\n43\tmanagement\tdivorced\ttertiary\t36\n55\tunemployed\tmarried\ttertiary\t383\n50\tblue-collar\tmarried\tsecondary\t283\n45\tmanagement\tdivorced\ttertiary\t0\n35\tblue-collar\tdivorced\tsecondary\t3102\n32\tblue-collar\tmarried\tsecondary\t889\n59\thousemaid\tmarried\tsecondary\t0\n34\tself-employed\tmarried\tsecondary\t-370\n39\tmanagement\tmarried\ttertiary\t-606\n40\tmanagement\tsingle\tsecondary\t10378\n36\tblue-collar\tsingle\tprimary\t1313\n40\tmanagement\tmarried\ttertiary\t8969\n55\tself-employed\tmarried\tsecondary\t-196\n38\tentrepreneur\tmarried\tsecondary\t15\n61\tadmin.\tmarried\tsecondary\t4608\n41\tmanagement\tmarried\ttertiary\t666\n57\tblue-collar\tmarried\tprimary\t452\n48\tblue-collar\tmarried\tsecondary\t149\n77\tretired\tmarried\ttertiary\t7802\n35\tservices\tmarried\tsecondary\t1453\n54\tblue-collar\tmarried\tsecondary\t1480\n37\tmanagement\tsingle\tunknown\t715\n56\tmanagement\tsingle\tsecondary\t237\n40\ttechnician\tmarried\tsecondary\t694\n40\tmanagement\tmarried\ttertiary\t0\n54\tmanagement\tmarried\ttertiary\t55\n55\thousemaid\tmarried\tprimary\t136\n55\tservices\tdivorced\tsecondary\t-404\n52\tblue-collar\tmarried\tprimary\t779\n55\tblue-collar\tsingle\tprimary\t1187\n33\tmanagement\tmarried\ttertiary\t641\n52\tblue-collar\tmarried\tunknown\t826\n33\tservices\tdivorced\tsecondary\t991\n53\tadmin.\tmarried\tsecondary\t1796\n46\tadmin.\tmarried\tsecondary\t22\n44\ttechnician\tsingle\tsecondary\t244\n48\tmanagement\tdivorced\ttertiary\t1328\n50\thousemaid\tmarried\tsecondary\t7317\n34\ttechnician\tsingle\tsecondary\t4943\n38\ttechnician\tsingle\tsecondary\t258\n42\tmanagement\tsingle\ttertiary\t515\n32\tmanagement\tsingle\ttertiary\t12607\n58\tadmin.\tmarried\tsecondary\t2\n31\tmanagement\tmarried\ttertiary\t13\n19\tstudent\tsingle\tprimary\t103\n41\tmanagement\tmarried\ttertiary\t3872\n31\tunemployed\tmarried\tsecondary\t296\n52\tself-employed\tsingle\tprimary\t217\n42\tself-employed\tdivorced\ttertiary\t360\n41\tblue-collar\tsingle\tsecondary\t428\n30\tblue-collar\tsingle\tsecondary\t315\n38\tblue-collar\tmarried\tsecondary\t121\n32\tmanagement\tmarried\ttertiary\t820\n52\ttechnician\tmarried\tsecondary\t195\n48\tmanagement\tdivorced\ttertiary\t108\n36\tmanagement\tmarried\ttertiary\t-381\n45\tunemployed\tdivorced\tprimary\t757\n34\ttechnician\tmarried\ttertiary\t691\n36\tblue-collar\tmarried\tprimary\t1925\n34\tmanagement\tmarried\ttertiary\t902\n61\tretired\tmarried\tsecondary\t5207\n54\tservices\tmarried\tsecondary\t0\n50\tentrepreneur\tmarried\tsecondary\t665\n43\tadmin.\tdivorced\tsecondary\t738\n47\tblue-collar\tmarried\tprimary\t233\n45\tservices\tmarried\tsecondary\t-839\n57\tretired\tmarried\tprimary\t5799\n27\tadmin.\tmarried\tsecondary\t1033\n49\tunemployed\tdivorced\tsecondary\t66\n43\tservices\tmarried\tprimary\t2567\n40\tmanagement\tmarried\ttertiary\t1584\n32\tservices\tsingle\tsecondary\t182\n58\tmanagement\tmarried\tprimary\t76\n34\tadmin.\tsingle\tsecondary\t663\n46\ttechnician\tdivorced\tsecondary\t3455\n29\tblue-collar\tmarried\tsecondary\t15\n52\tblue-collar\tmarried\tprimary\t1054\n45\tmanagement\tmarried\ttertiary\t1529\n26\tmanagement\tsingle\tsecondary\t63\n40\ttechnician\tmarried\ttertiary\t0\n41\tadmin.\tmarried\tsecondary\t920\n47\tadmin.\tsingle\tsecondary\t3696\n27\ttechnician\tsingle\tunknown\t59\n27\tservices\tmarried\tsecondary\t0\n48\tblue-collar\tmarried\tsecondary\t157\n49\tadmin.\tmarried\tsecondary\t2465\n35\tblue-collar\tmarried\tprimary\t0\n47\tself-employed\tmarried\tsecondary\t2\n54\tmanagement\tmarried\ttertiary\t0\n39\tmanagement\tsingle\ttertiary\t12437\n28\tstudent\tsingle\tsecondary\t378\n54\tblue-collar\tmarried\tprimary\t211\n34\ttechnician\tmarried\tsecondary\t-228\n63\tretired\tmarried\tsecondary\t2747\n42\tself-employed\tmarried\ttertiary\t1932\n43\ttechnician\tsingle\tsecondary\t11269\n37\tadmin.\tmarried\tsecondary\t1314\n55\tblue-collar\tmarried\tprimary\t2275\n43\tmanagement\tsingle\ttertiary\t1304\n41\tblue-collar\tmarried\tsecondary\t720\n47\ttechnician\tdivorced\tsecondary\t2914\n34\ttechnician\tmarried\tsecondary\t1464\n28\tstudent\tsingle\tsecondary\t11555\n36\tservices\tmarried\tsecondary\t-302\n50\ttechnician\tmarried\tsecondary\t2497\n35\tblue-collar\tmarried\tsecondary\t-339\n40\ttechnician\tmarried\tsecondary\t56\n26\tself-employed\tsingle\ttertiary\t211\n36\tmanagement\tdivorced\ttertiary\t3611\n59\tunemployed\tmarried\tprimary\t0\n28\tstudent\tsingle\tsecondary\t459\n46\tentrepreneur\tmarried\tunknown\t242\n50\tself-employed\tmarried\tsecondary\t1138\n53\tmanagement\tmarried\ttertiary\t1319\n81\tretired\tmarried\tsecondary\t1\n35\tservices\tdivorced\tsecondary\t67\n58\tretired\tmarried\tunknown\t937\n44\tservices\tmarried\tsecondary\t0\n38\tmanagement\tmarried\ttertiary\t-558\n49\tblue-collar\tmarried\tsecondary\t171\n33\ttechnician\tsingle\ttertiary\t696\n29\tmanagement\tmarried\ttertiary\t361\n28\ttechnician\tsingle\tsecondary\t227\n31\tadmin.\tmarried\tsecondary\t236\n33\tmanagement\tsingle\ttertiary\t-53\n52\ttechnician\tmarried\tsecondary\t192\n43\tmanagement\tdivorced\ttertiary\t38\n32\tself-employed\tsingle\tsecondary\t518\n36\tself-employed\tmarried\ttertiary\t16\n41\tblue-collar\tmarried\tsecondary\t-256\n43\tblue-collar\tmarried\tsecondary\t105\n45\tself-employed\tmarried\ttertiary\t334\n39\ttechnician\tmarried\tsecondary\t1048\n41\tservices\tmarried\tsecondary\t108\n31\ttechnician\tmarried\tsecondary\t660\n37\tunemployed\tsingle\ttertiary\t0\n28\tentrepreneur\tmarried\tunknown\t1034\n47\thousemaid\tmarried\tprimary\t201\n37\thousemaid\tmarried\tprimary\t189\n60\tretired\tdivorced\tunknown\t-49\n43\ttechnician\tdivorced\tsecondary\t1413\n58\tretired\tdivorced\ttertiary\t264\n52\tentrepreneur\tmarried\ttertiary\t54\n50\tblue-collar\tmarried\tprimary\t12519\n32\tservices\tsingle\tsecondary\t2881\n42\tblue-collar\tmarried\tprimary\t0\n31\tadmin.\tmarried\tsecondary\t88\n28\tblue-collar\tmarried\tsecondary\t1020\n36\ttechnician\tdivorced\ttertiary\t119\n51\tunemployed\tsingle\ttertiary\t1594\n46\ttechnician\tmarried\ttertiary\t342\n50\tservices\tsingle\tsecondary\t72\n32\tblue-collar\tmarried\tsecondary\t14\n26\tentrepreneur\tsingle\ttertiary\t81\n41\tself-employed\tmarried\ttertiary\t231\n39\ttechnician\tmarried\ttertiary\t1161\n31\tblue-collar\tmarried\tsecondary\t-45\n28\tmanagement\tsingle\ttertiary\t231\n31\tmanagement\tsingle\tsecondary\t36\n30\ttechnician\tmarried\ttertiary\t1570\n35\ttechnician\tmarried\ttertiary\t7050\n33\tblue-collar\tmarried\tprimary\t3704\n30\ttechnician\tsingle\ttertiary\t6619\n32\tblue-collar\tsingle\tsecondary\t-84\n40\tmanagement\tsingle\ttertiary\t1509\n31\tself-employed\tmarried\ttertiary\t1134\n36\ttechnician\tmarried\tsecondary\t146\n33\tmanagement\tsingle\ttertiary\t9449\n57\tretired\tmarried\tsecondary\t374\n45\ttechnician\tmarried\tsecondary\t88\n59\tmanagement\tmarried\ttertiary\t2764\n30\tmanagement\tsingle\ttertiary\t2\n33\ttechnician\tmarried\ttertiary\t8023\n52\tblue-collar\tmarried\tsecondary\t289\n83\tretired\tmarried\tsecondary\t0\n58\tself-employed\tdivorced\ttertiary\t1382\n33\tmanagement\tdivorced\ttertiary\t280\n41\tblue-collar\tdivorced\tprimary\t2195\n31\tself-employed\tmarried\tsecondary\t33\n35\tblue-collar\tdivorced\tsecondary\t275\n27\tmanagement\tsingle\ttertiary\t703\n57\tadmin.\tdivorced\tunknown\t887\n56\tunknown\tmarried\tunknown\t0\n53\tadmin.\tsingle\tsecondary\t1178\n39\tmanagement\tmarried\ttertiary\t2763\n32\tentrepreneur\tsingle\ttertiary\t890\n46\tself-employed\tmarried\tsecondary\t548\n56\ttechnician\tmarried\ttertiary\t272\n46\tmanagement\tdivorced\ttertiary\t6269\n29\tentrepreneur\tmarried\tsecondary\t178\n60\tmanagement\tmarried\tprimary\t252\n33\thousemaid\tsingle\ttertiary\t23663\n27\tentrepreneur\tsingle\ttertiary\t81\n50\tself-employed\tdivorced\ttertiary\t59\n45\tservices\tmarried\tsecondary\t1343\n58\tretired\tmarried\tsecondary\t225\n59\tretired\tmarried\tprimary\t0\n58\tretired\tdivorced\tprimary\t2538\n64\tretired\tmarried\tprimary\t43\n47\ttechnician\tmarried\tsecondary\t57\n40\tmanagement\tmarried\ttertiary\t-117\n36\ttechnician\tdivorced\tsecondary\t666\n28\tmanagement\tsingle\ttertiary\t0\n38\ttechnician\tsingle\ttertiary\t25\n53\tentrepreneur\tmarried\tprimary\t1034\n46\tblue-collar\tsingle\tsecondary\t324\n54\ttechnician\tmarried\tsecondary\t0\n32\tmanagement\tmarried\ttertiary\t0\n55\tmanagement\tmarried\tprimary\t621\n55\tretired\tdivorced\tsecondary\t138\n56\ttechnician\tmarried\tsecondary\t4063\n40\tblue-collar\tmarried\tsecondary\t11084\n44\ttechnician\tmarried\tsecondary\t310\n32\tentrepreneur\tmarried\tunknown\t73\n33\tmanagement\tmarried\ttertiary\t1808\n41\tunemployed\tdivorced\tsecondary\t1281\n37\ttechnician\tmarried\tsecondary\t64\n58\tmanagement\tsingle\ttertiary\t2\n52\tblue-collar\tmarried\tsecondary\t60\n49\tservices\tsingle\tsecondary\t133\n44\thousemaid\tmarried\tprimary\t3706\n28\tadmin.\tsingle\tunknown\t174\n31\ttechnician\tmarried\tsecondary\t251\n37\tself-employed\tmarried\tsecondary\t4153\n30\ttechnician\tsingle\ttertiary\t985\n28\tservices\tsingle\tsecondary\t168\n46\tservices\tmarried\tsecondary\t1550\n47\tmanagement\tmarried\ttertiary\t7708\n35\tblue-collar\tmarried\tprimary\t-12\n80\tmanagement\tmarried\tprimary\t6483\n30\ttechnician\tsingle\ttertiary\t60\n55\ttechnician\tsingle\tsecondary\t3339\n22\tstudent\tsingle\ttertiary\t1161\n33\tblue-collar\tsingle\tprimary\t599\n53\tentrepreneur\tmarried\tunknown\t28\n49\tmanagement\tmarried\ttertiary\t1430\n51\tretired\tmarried\tsecondary\t35\n41\tself-employed\tmarried\ttertiary\t6000\n34\ttechnician\tmarried\tsecondary\t0\n36\tblue-collar\tsingle\tsecondary\t340\n35\tentrepreneur\tmarried\ttertiary\t0\n29\tservices\tmarried\tsecondary\t3\n40\ttechnician\tsingle\ttertiary\t445\n32\tmanagement\tdivorced\ttertiary\t874\n48\tblue-collar\tmarried\tsecondary\t705\n59\tretired\tmarried\tunknown\t1033\n35\tself-employed\tdivorced\ttertiary\t1354\n33\ttechnician\tsingle\ttertiary\t123\n55\tretired\tmarried\tprimary\t8894\n41\tblue-collar\tmarried\tsecondary\t429\n42\thousemaid\tmarried\tprimary\t14752\n46\tblue-collar\tmarried\tprimary\t67\n35\thousemaid\tdivorced\tsecondary\t39\n28\ttechnician\tsingle\ttertiary\t102\n25\tstudent\tsingle\tsecondary\t1790\n56\tmanagement\tsingle\ttertiary\t15311\n30\tadmin.\tsingle\tsecondary\t-635\n45\tblue-collar\tmarried\tsecondary\t115\n40\tmanagement\tmarried\ttertiary\t10786\n40\tblue-collar\tmarried\tsecondary\t498\n39\tblue-collar\tmarried\tsecondary\t1045\n48\tentrepreneur\tmarried\ttertiary\t810\n31\ttechnician\tsingle\ttertiary\t-162\n32\tmanagement\tmarried\ttertiary\t55\n34\tservices\tmarried\tsecondary\t586\n26\ttechnician\tsingle\tsecondary\t455\n31\tmanagement\tmarried\ttertiary\t1010\n37\tmanagement\tsingle\ttertiary\t509\n29\tstudent\tsingle\tunknown\t2929\n57\ttechnician\tmarried\tsecondary\t3071\n47\tmanagement\tsingle\ttertiary\t153\n38\tself-employed\tsingle\tsecondary\t1146\n48\tblue-collar\tmarried\tprimary\t1092\n50\tmanagement\tmarried\ttertiary\t3463\n33\tadmin.\tmarried\tsecondary\t1158\n28\tadmin.\tsingle\tsecondary\t26\n30\tservices\tsingle\tsecondary\t566\n52\ttechnician\tdivorced\tsecondary\t204\n36\ttechnician\tmarried\tsecondary\t480\n36\ttechnician\tsingle\tsecondary\t1855\n46\tservices\tmarried\tsecondary\t1034\n57\tmanagement\tmarried\ttertiary\t3250\n28\tmanagement\tsingle\tsecondary\t1633\n46\tservices\tmarried\tsecondary\t0\n55\tretired\tmarried\tprimary\t3334\n33\tmanagement\tmarried\ttertiary\t4020\n53\tmanagement\tmarried\tsecondary\t66\n41\ttechnician\tsingle\tsecondary\t-41\n60\tblue-collar\tmarried\tsecondary\t322\n35\tentrepreneur\tmarried\tprimary\t2643\n43\tblue-collar\tdivorced\tprimary\t49\n57\tadmin.\tdivorced\tprimary\t1\n46\tadmin.\tmarried\tsecondary\t3098\n31\tblue-collar\tmarried\tprimary\t352\n53\ttechnician\tmarried\tsecondary\t65\n35\tblue-collar\tmarried\tsecondary\t1949\n32\tadmin.\tsingle\tsecondary\t739\n48\tmanagement\tmarried\ttertiary\t1167\n50\tadmin.\tmarried\tsecondary\t231\n40\tblue-collar\tmarried\tprimary\t1136\n42\tentrepreneur\tmarried\ttertiary\t233\n59\tadmin.\tmarried\tsecondary\t817\n27\tblue-collar\tsingle\tprimary\t1128\n32\tmanagement\tsingle\ttertiary\t1831\n35\ttechnician\tsingle\tsecondary\t450\n28\tservices\tmarried\tsecondary\t0\n37\tmanagement\tdivorced\tsecondary\t414\n57\tmanagement\tmarried\tprimary\t1052\n42\tadmin.\tsingle\tsecondary\t1022\n55\tadmin.\tmarried\tprimary\t343\n52\tmanagement\tmarried\ttertiary\t1944\n26\tblue-collar\tsingle\tsecondary\t-32\n52\ttechnician\tmarried\tsecondary\t1781\n26\tmanagement\tsingle\ttertiary\t350\n33\tunemployed\tmarried\tsecondary\t2\n24\tblue-collar\tsingle\tprimary\t111\n37\tmanagement\tdivorced\ttertiary\t168\n28\ttechnician\tsingle\tsecondary\t3\n30\ttechnician\tsingle\tsecondary\t102\n33\tblue-collar\tmarried\tprimary\t0\n55\tunknown\tmarried\tprimary\t159\n33\tblue-collar\tmarried\tsecondary\t1134\n42\tblue-collar\tmarried\tsecondary\t352\n37\tmanagement\tmarried\ttertiary\t865\n59\tblue-collar\tmarried\tprimary\t179\n27\tblue-collar\tsingle\tsecondary\t5\n23\tstudent\tmarried\ttertiary\t-230\n51\tmanagement\tdivorced\ttertiary\t0\n50\tblue-collar\tmarried\tprimary\t3924\n43\ttechnician\tmarried\tsecondary\t764\n37\tblue-collar\tdivorced\tprimary\t511\n34\tmanagement\tsingle\ttertiary\t4348\n41\tmanagement\tmarried\ttertiary\t3016\n26\tstudent\tsingle\tsecondary\t279\n49\tmanagement\tdivorced\ttertiary\t1405\n29\tblue-collar\tsingle\tsecondary\t908\n30\tmanagement\tsingle\ttertiary\t162\n38\tservices\tdivorced\tsecondary\t792\n58\tmanagement\tmarried\tsecondary\t111\n34\tstudent\tsingle\tunknown\t1281\n53\tservices\tdivorced\tunknown\t1012\n50\tmanagement\tmarried\ttertiary\t2881\n30\tblue-collar\tsingle\tsecondary\t445\n40\tmanagement\tmarried\tsecondary\t643\n57\thousemaid\tsingle\tsecondary\t254\n40\tmanagement\tmarried\ttertiary\t-1212\n41\ttechnician\tmarried\tsecondary\t2125\n53\ttechnician\tdivorced\tunknown\t629\n48\tblue-collar\tmarried\tsecondary\t-202\n32\ttechnician\tsingle\tsecondary\t271\n34\tmanagement\tmarried\ttertiary\t703\n46\tblue-collar\tmarried\tsecondary\t-216\n45\tservices\tdivorced\tsecondary\t88\n51\tadmin.\tsingle\ttertiary\t16\n31\tmanagement\tmarried\tsecondary\t466\n47\ttechnician\tmarried\tsecondary\t-75\n32\tblue-collar\tmarried\tsecondary\t456\n41\ttechnician\tmarried\tsecondary\t77\n37\tservices\tsingle\tsecondary\t-244\n27\tblue-collar\tsingle\tprimary\t1209\n27\tservices\tmarried\tsecondary\t58\n50\tmanagement\tmarried\tsecondary\t421\n31\tmanagement\tsingle\ttertiary\t112\n40\tself-employed\tmarried\ttertiary\t13669\n43\tmanagement\tmarried\ttertiary\t1429\n39\ttechnician\tmarried\ttertiary\t794\n31\tentrepreneur\tsingle\ttertiary\t1957\n48\ttechnician\tmarried\tsecondary\t454\n32\tblue-collar\tsingle\tprimary\t882\n47\tunemployed\tmarried\tprimary\t168\n35\tmanagement\tsingle\ttertiary\t714\n42\tmanagement\tsingle\ttertiary\t0\n47\tblue-collar\tmarried\tsecondary\t1996\n59\tretired\tmarried\tsecondary\t163\n38\tadmin.\tmarried\tsecondary\t3190\n50\tunemployed\tmarried\tsecondary\t1772\n27\tservices\tsingle\tsecondary\t-151\n55\thousemaid\tmarried\tprimary\t16\n39\tservices\tsingle\tsecondary\t7066\n31\ttechnician\tsingle\ttertiary\t454\n37\tentrepreneur\tmarried\ttertiary\t4798\n28\ttechnician\tsingle\tsecondary\t-298\n42\ttechnician\tmarried\tsecondary\t439\n40\tservices\tdivorced\tsecondary\t1927\n59\tmanagement\tsingle\tsecondary\t671\n40\tservices\tsingle\tsecondary\t65\n43\ttechnician\tmarried\tsecondary\t-932\n38\ttechnician\tsingle\tsecondary\t4366\n54\tretired\tmarried\tprimary\t0\n41\tblue-collar\tmarried\tsecondary\t4900\n55\thousemaid\tdivorced\tprimary\t976\n33\tmanagement\tmarried\ttertiary\t148\n46\tblue-collar\tmarried\tsecondary\t5\n36\tmanagement\tmarried\tsecondary\t-148\n48\ttechnician\tdivorced\ttertiary\t113\n42\tmanagement\tmarried\tsecondary\t-105\n46\tmanagement\tdivorced\ttertiary\t624\n49\ttechnician\tmarried\tsecondary\t-1680\n36\tblue-collar\tmarried\tsecondary\t-461\n34\ttechnician\tsingle\ttertiary\t144\n51\tentrepreneur\tdivorced\ttertiary\t4\n58\tblue-collar\tmarried\tprimary\t309\n48\tmanagement\tmarried\ttertiary\t866\n41\tadmin.\tsingle\tsecondary\t1020\n49\tself-employed\tmarried\tprimary\t489\n43\tmanagement\tmarried\tprimary\t8167\n32\tblue-collar\tsingle\tsecondary\t-255\n54\tretired\tmarried\tsecondary\t3671\n33\tblue-collar\tdivorced\tprimary\t636\n35\ttechnician\tmarried\tsecondary\t141\n56\ttechnician\tmarried\tsecondary\t150\n57\ttechnician\tmarried\tsecondary\t839\n31\thousemaid\tsingle\tprimary\t26965\n33\ttechnician\tsingle\tsecondary\t716\n29\ttechnician\tsingle\ttertiary\t2485\n38\tmanagement\tsingle\ttertiary\t15030\n37\tadmin.\tmarried\tsecondary\t11303\n33\tentrepreneur\tmarried\ttertiary\t595\n30\tmanagement\tsingle\ttertiary\t19358\n31\tself-employed\tsingle\tsecondary\t203\n28\ttechnician\tsingle\ttertiary\t183\n26\tadmin.\tsingle\tsecondary\t255\n31\ttechnician\tsingle\tsecondary\t102\n50\thousemaid\tdivorced\tprimary\t94\n45\tentrepreneur\tmarried\tprimary\t58\n48\tmanagement\tmarried\tprimary\t606\n41\ttechnician\tmarried\tsecondary\t0\n60\ttechnician\tmarried\tprimary\t65\n41\tblue-collar\tmarried\tsecondary\t338\n43\tblue-collar\tmarried\tprimary\t757\n36\tmanagement\tmarried\ttertiary\t9269\n40\tblue-collar\tmarried\tprimary\t1206\n28\tmanagement\tsingle\ttertiary\t882\n27\tstudent\tsingle\ttertiary\t5291\n49\tmanagement\tsingle\tsecondary\t61\n37\ttechnician\tmarried\ttertiary\t0\n31\tblue-collar\tmarried\tsecondary\t1407\n31\ttechnician\tsingle\tsecondary\t25\n31\tblue-collar\tmarried\tsecondary\t1354\n35\tblue-collar\tmarried\tprimary\t793\n51\tblue-collar\tdivorced\tunknown\t10287\n33\ttechnician\tsingle\tsecondary\t5235\n30\ttechnician\tsingle\ttertiary\t3\n58\ttechnician\tsingle\tsecondary\t409\n34\tadmin.\tmarried\ttertiary\t35\n45\tmanagement\tmarried\ttertiary\t-459\n28\tservices\tsingle\tsecondary\t198\n31\tblue-collar\tmarried\tprimary\t99\n40\tmanagement\tmarried\ttertiary\t60\n30\tservices\tsingle\tsecondary\t3485\n34\tentrepreneur\tmarried\tsecondary\t-139\n40\tblue-collar\tmarried\tsecondary\t952\n59\tretired\tmarried\tprimary\t1427\n43\ttechnician\tsingle\ttertiary\t1017\n41\tmanagement\tmarried\ttertiary\t-29\n33\ttechnician\tdivorced\tsecondary\t9\n33\tmanagement\tmarried\tsecondary\t4040\n36\tblue-collar\tmarried\tsecondary\t13\n32\tself-employed\tsingle\tsecondary\t1259\n25\tadmin.\tmarried\tsecondary\t18\n25\tblue-collar\tmarried\tsecondary\t-76\n38\ttechnician\tsingle\ttertiary\t221\n34\tmanagement\tmarried\ttertiary\t136\n67\tblue-collar\tmarried\tsecondary\t16353\n32\tblue-collar\tmarried\tsecondary\t-63\n45\thousemaid\tmarried\tprimary\t7353\n33\tblue-collar\tmarried\tprimary\t511\n38\tadmin.\tmarried\tprimary\t3913\n32\ttechnician\tdivorced\tsecondary\t1097\n54\tretired\tdivorced\ttertiary\t6102\n51\tadmin.\tdivorced\tsecondary\t340\n42\tblue-collar\tmarried\tprimary\t-119\n41\tadmin.\tmarried\tsecondary\t2993\n39\tmanagement\tdivorced\ttertiary\t3575\n38\tblue-collar\tmarried\tsecondary\t361\n39\tmanagement\tmarried\tsecondary\t1072\n46\tblue-collar\tmarried\tprimary\t2904\n50\tentrepreneur\tdivorced\ttertiary\t1790\n33\tblue-collar\tmarried\tsecondary\t86\n37\ttechnician\tmarried\tsecondary\t1633\n31\tmanagement\tmarried\ttertiary\t8312\n34\tblue-collar\tdivorced\tunknown\t172\n34\tmanagement\tmarried\ttertiary\t0\n36\tmanagement\tmarried\ttertiary\t222\n40\ttechnician\tmarried\tsecondary\t109\n40\tblue-collar\tmarried\tsecondary\t1451\n41\ttechnician\tmarried\tsecondary\t1066\n52\tmanagement\tmarried\ttertiary\t3163\n40\tservices\tsingle\tsecondary\t888\n48\tblue-collar\tsingle\tunknown\t428\n33\tmanagement\tdivorced\tsecondary\t106\n44\ttechnician\tdivorced\tsecondary\t0\n55\tmanagement\tmarried\ttertiary\t979\n51\tadmin.\tmarried\tsecondary\t2662\n34\tmanagement\tsingle\ttertiary\t84\n58\tretired\tdivorced\tunknown\t5920\n39\tmanagement\tsingle\ttertiary\t816\n27\tunemployed\tsingle\tsecondary\t3276\n55\tmanagement\tdivorced\tunknown\t2\n35\ttechnician\tsingle\tsecondary\t-51\n37\ttechnician\tsingle\ttertiary\t3315\n52\ttechnician\tmarried\tsecondary\t196\n41\tblue-collar\tmarried\tsecondary\t552\n52\tadmin.\tmarried\tsecondary\t2347\n34\tblue-collar\tsingle\tsecondary\t3723\n53\tmanagement\tdivorced\tprimary\t255\n33\tmanagement\tsingle\ttertiary\t3143\n47\tself-employed\tmarried\tsecondary\t0\n35\tblue-collar\tmarried\tsecondary\t6411\n33\tmanagement\tsingle\ttertiary\t1909\n55\tblue-collar\tmarried\tprimary\t3873\n58\tself-employed\tmarried\tprimary\t1013\n44\tadmin.\tmarried\tsecondary\t262\n25\tservices\tsingle\tsecondary\t3217\n37\ttechnician\tsingle\tsecondary\t5436\n41\tblue-collar\tmarried\tprimary\t2067\n34\tblue-collar\tsingle\tsecondary\t215\n36\tservices\tdivorced\tsecondary\t1594\n44\tself-employed\tmarried\ttertiary\t134\n34\tentrepreneur\tdivorced\ttertiary\t262\n56\tblue-collar\tdivorced\tprimary\t3021\n43\tmanagement\tdivorced\ttertiary\t388\n28\tblue-collar\tsingle\tsecondary\t3412\n54\tblue-collar\tmarried\tsecondary\t1291\n37\ttechnician\tdivorced\tsecondary\t79\n59\tself-employed\tmarried\ttertiary\t2013\n58\tblue-collar\tdivorced\tsecondary\t543\n56\tmanagement\tdivorced\ttertiary\t1016\n32\tblue-collar\tsingle\tsecondary\t604\n42\tmanagement\tsingle\ttertiary\t525\n52\tretired\tdivorced\tprimary\t353\n46\tmanagement\tmarried\ttertiary\t964\n37\tadmin.\tmarried\ttertiary\t3913\n39\tblue-collar\tmarried\tprimary\t879\n31\tadmin.\tmarried\tsecondary\t314\n59\thousemaid\tmarried\tprimary\t0\n38\tblue-collar\tmarried\tsecondary\t1370\n58\tmanagement\tmarried\tsecondary\t37\n34\tmanagement\tsingle\ttertiary\t673\n40\tservices\tmarried\tsecondary\t-342\n20\tstudent\tsingle\tsecondary\t291\n"
+          },
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"result-alert alert-warning\" role\u003d\"alert\"\u003e\u003cbutton type\u003d\"button\" class\u003d\"close\" data-dismiss\u003d\"alert\" aria-label\u003d\"Close\"\u003e\u003cspan aria-hidden\u003d\"true\"\u003e\u0026times;\u003c/span\u003e\u003c/button\u003e\u003cstrong\u003eOutput is truncated\u003c/strong\u003e to 1000 rows. Learn more about \u003cstrong\u003ezeppelin.spark.maxResult\u003c/strong\u003e\u003c/div\u003e\n"
+          },
+          {
+            "type": "TEXT",
+            "data": ""
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577458279008_1018504404",
+      "id": "20191227-145119_784697405",
+      "dateCreated": "2019-12-27 14:51:19.008",
+      "dateStarted": "2019-12-27 15:24:37.961",
+      "dateFinished": "2019-12-27 15:24:38.075",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\n\nSELECT age, count(1) value\nFROM bank\nWHERE age \u003c 30\nGROUP BY age\nORDER BY age",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:28:46.243",
+      "config": {
+        "colWidth": 4.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "age": "string",
+                      "value": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "age",
+                  "index": 0.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "value",
+                  "index": 1.0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
+        },
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "age\tvalue\n19\t4\n20\t3\n21\t7\n22\t9\n23\t20\n24\t24\n25\t44\n26\t77\n27\t94\n28\t103\n29\t97\n"
+          },
+          {
+            "type": "TEXT",
+            "data": ""
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577433023269_13575534",
+      "id": "20191227-075023_1628267795",
+      "dateCreated": "2019-12-27 07:50:23.269",
+      "dateStarted": "2019-12-27 15:24:38.177",
+      "dateFinished": "2019-12-27 15:24:38.752",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql \nselect age, count(1) value \nfrom bank \nwhere age \u003c ${maxAge\u003d30} \ngroup by age \norder by age",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:38.777",
+      "config": {
+        "colWidth": 4.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "age": "string",
+                      "value": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "age",
+                  "index": 0.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "value",
+                  "index": 1.0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {
+          "maxAge": "30"
+        },
+        "forms": {
+          "maxAge": {
+            "type": "TextBox",
+            "name": "maxAge",
+            "defaultValue": "30",
+            "hidden": false
+          }
+        }
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "age\tvalue\n19\t4\n20\t3\n21\t7\n22\t9\n23\t20\n24\t24\n25\t44\n26\t77\n27\t94\n28\t103\n29\t97\n"
+          },
+          {
+            "type": "TEXT",
+            "data": ""
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577459532745_234180888",
+      "id": "20191227-151212_631306577",
+      "dateCreated": "2019-12-27 15:12:12.745",
+      "dateStarted": "2019-12-27 15:24:38.791",
+      "dateFinished": "2019-12-27 15:24:39.373",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql \nselect age, count(1) value \nfrom bank \nwhere marital\u003d\"${marital\u003dsingle,single|divorced|married}\" \ngroup by age \norder by age",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:24:39.391",
+      "config": {
+        "colWidth": 4.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "age": "string",
+                      "value": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "age",
+                  "index": 0.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "value",
+                  "index": 1.0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql",
+        "runOnSelectionChange": true
+      },
+      "settings": {
+        "params": {
+          "marital": "single"
+        },
+        "forms": {
+          "marital": {
+            "type": "Select",
+            "options": [
+              {
+                "value": "single"
+              },
+              {
+                "value": "divorced"
+              },
+              {
+                "value": "married"
+              }
+            ],
+            "name": "marital",
+            "defaultValue": "single",
+            "hidden": false
+          }
+        }
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "age\tvalue\n19\t4\n20\t3\n21\t7\n22\t9\n23\t17\n24\t13\n25\t33\n26\t56\n27\t64\n28\t78\n29\t56\n30\t92\n31\t86\n32\t105\n33\t61\n34\t75\n35\t46\n36\t50\n37\t43\n38\t44\n39\t30\n40\t25\n41\t19\n42\t23\n43\t21\n44\t20\n45\t15\n46\t14\n47\t12\n48\t12\n49\t11\n50\t8\n51\t6\n52\t9\n53\t4\n55\t3\n56\t3\n57\t2\n58\t7\n59\t2\n60\t5\n66\t2\n69\t1\n"
+          },
+          {
+            "type": "TEXT",
+            "data": ""
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577459571654_-1917853551",
+      "id": "20191227-151251_1803148106",
+      "dateCreated": "2019-12-27 15:12:51.654",
+      "dateStarted": "2019-12-27 15:24:39.412",
+      "dateFinished": "2019-12-27 15:24:40.005",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\nここからmatplotlibを使ってみる。",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:27:52.476",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eここからmatplotlibを使ってみる。\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577460279391_1499733022",
+      "id": "20191227-152439_1325271815",
+      "dateCreated": "2019-12-27 15:24:39.391",
+      "dateStarted": "2019-12-27 15:27:52.476",
+      "dateFinished": "2019-12-27 15:27:52.488",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\nimport matplotlib\n\nover_30_df \u003d spark.sql(\u0027SELECT age, count(1) value \\\n                        FROM bank \\\n                        WHERE age \u003c 30 \\\n                        GROUP BY age \\\n                        ORDER BY age\u0027)",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:30:41.234",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1577460472454_382018673",
+      "id": "20191227-152752_755302158",
+      "dateCreated": "2019-12-27 15:27:52.454",
+      "dateStarted": "2019-12-27 15:30:41.253",
+      "dateFinished": "2019-12-27 15:30:41.264",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\nover_30_pdf \u003d over_30_df.toPandas()\n\nover_30_pdf[0:2]\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:32:46.633",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "   age  value\n0   19      4\n1   20      3\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577460560416_-128736558",
+      "id": "20191227-152920_2142237900",
+      "dateCreated": "2019-12-27 15:29:20.416",
+      "dateStarted": "2019-12-27 15:32:46.656",
+      "dateFinished": "2019-12-27 15:32:46.903",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n\nimport pandas as pd\nimport matplotlib as mpl\nimport matplotlib.pyplot as plt\n\nover_30_pdf.plot()",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:33:02.166",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u003cmatplotlib.axes._subplots.AxesSubplot object at 0x7faf42636828\u003e\n"
+          },
+          {
+            "type": "HTML",
+            "data": "\u003cdiv style\u003d\u0027width:auto;height:auto\u0027\u003e\u003cimg src\u003ddata:image/png;base64,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\u003d style\u003d\u0027width\u003dauto;height:auto\u0027\u003e\u003cdiv\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1577460656559_-810917433",
+      "id": "20191227-153056_1730327548",
+      "dateCreated": "2019-12-27 15:30:56.559",
+      "dateStarted": "2019-12-27 15:33:02.187",
+      "dateFinished": "2019-12-27 15:33:03.155",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark.pyspark\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-27 15:33:02.166",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1577460782166_-603403489",
+      "id": "20191227-153302_840451820",
+      "dateCreated": "2019-12-27 15:33:02.166",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Basic FeaturesをPySparkで実行",
+  "id": "2EX6DQWG7",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "md:shared_process": [],
+    "python:shared_process": [],
+    "spark:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
